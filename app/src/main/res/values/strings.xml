@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MultiPoll</string>
+
+    <!-- Strings related to login -->
+
+    <string name="title_activity_main">Active Polls</string>
+    <string name="title_activity_create_poll">CreatePoll</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Recent Polls</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
