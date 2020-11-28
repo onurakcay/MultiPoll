@@ -1,5 +1,7 @@
 package com.onurakcay.multipoll;
 
+import android.widget.Toast;
+
 import com.android.volley.Response;
 import com.android.volley.toolbox.StringRequest;
 
@@ -19,7 +21,7 @@ public class LoginRequest extends StringRequest{
         params = new HashMap<>();
         params.put("name",name);
         params.put("password",password);
-
+        Toast.makeText(LoginActivity.getApplicationContext(), "Başarılı", Toast.LENGTH_LONG).show();
     }
 
     @Override
